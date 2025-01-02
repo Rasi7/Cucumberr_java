@@ -1,0 +1,710 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 18, 2024 11:27:05 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@smoke</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BusTickets</p>
+            <p class="text-sm">
+              <span>11:27:07 am</span> / <span>00:03:04:035</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">BusTickets</h5>
+<span class='badge badge-success'>11.18.2024 11:27:07 am</span>
+<span class='badge badge-danger'>11.18.2024 11:30:11 am</span>
+<span class='badge badge-default'>00:03:04:035</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>validate user should able to get data in relavent language</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>validate user should able to get data in relavent language</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user is able to click on  1 in the language dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should able to see the information in relavent language</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>validate user should able to get data in relavent language</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user is able to click on  2 in the language dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should able to see the information in relavent language</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>validate user should able to get data in relavent language</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user is able to click on  3 in the language dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should able to see the information in relavent language</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to see the relavent bus offers</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.browser_will_be_lunched_and_url_should_be_navigated()">
+                <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_bus_ticket_button()">
+                <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_click_on_view_all_link()">
+                <span>When user should  click on ViewAll link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_offer_page()">
+                <span>And user should navigate to Offer page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_get_bus_offers()">
+                <span>Then user should get bus Offers</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_come_back_from_bus_offers()">
+                <span>And user should come back from bus offers</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Validate that the user is able to navigate to the head office of punjab</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.browser_will_be_lunched_and_url_should_be_navigated()">
+                <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_bus_ticket_button()">
+                <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_government_buses_view_all()">
+                <span>When user  click on government buses viewAll</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_find_all_the_rtc_operator_directories_page()">
+                <span>And user should navigate to the find all the RTC Operator directories page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_able_to_click_on_north_zone_pepsu_bus_link()">
+                <span>And user  able to click on north zone PEPSU bus link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_able_to_navigate_to_that_paticular_page()">
+                <span>Then user should able to navigate to that paticular page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_head_office_of_punjab()">
+                <span>And user click on head office of punjab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate()">
+                <span>And user should navigate</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>Validate user is able to know about Refund related Cancellation related ticket related</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.browser_will_be_lunched_and_url_should_be_navigated()">
+                <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_bus_ticket_button()">
+                <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_faq()">
+                <span>When user  click on FAQ</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_frequent_asked_questions()">
+                <span>And user should navigate to the frequent asked Questions</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_ticket_related()">
+                <span>And user click on ticket related</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_refund_related()">
+                <span>And user click on  refund related</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_cancellation_related()">
+                <span>And user click on cancellation related</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_terms_and_conditions()">
+                <span>Then user click on terms and conditions</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_page()">
+                <span>And user should navigate to the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_user_agrement()">
+                <span>Then user click on userAgrement</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_relavent_page()">
+                <span>And user should navigate to the relavent page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Validate that the user is  able to see main bus route in colombia</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.browser_will_be_lunched_and_url_should_be_navigated()">
+                <span>Given Browser will be lunched and url should be navigated</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_bus_ticket_button()">
+                <span>And user click on bus ticket button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_colombia()">
+                <span>When user click on Colombia</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.colombia_page_should_be_displayed()">
+                <span>And colombia page should be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_main_bus_route_in_colombia()">
+                <span>When user click on main bus route in colombia</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_get_the_relavent_information()">
+                <span>And user should get the relavent information</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_peru()">
+                <span>And user click on peru</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_peru_page()">
+                <span>And user should navigate to the peru page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_readmore_in_peru()">
+                <span>And user click on Readmore in peru</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_click_on_singapore()">
+                <span>Then user click on Singapore</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepDefinitions.BusTickets.user_should_navigate_to_the_singapore_page()">
+                <span>And user should navigate to the singapore page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:27:07 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>validate user should able to get data in relavent language</a>
+<div class="">
+<span class="badge badge-default">BusTickets.validate user should able to get data in relavent language</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:27:16 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>validate user should able to get data in relavent language</a>
+<div class="">
+<span class="badge badge-default">BusTickets.validate user should able to get data in relavent language</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:27:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>validate user should able to get data in relavent language</a>
+<div class="">
+<span class="badge badge-default">BusTickets.validate user should able to get data in relavent language</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:27:31 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Validate user is able to see the relavent bus offers</a>
+<div class="">
+<span class="badge badge-default">BusTickets.Validate user is able to see the relavent bus offers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:27:58 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Validate that the user is able to navigate to the head office of punjab</a>
+<div class="">
+<span class="badge badge-default">BusTickets.Validate that the user is able to navigate to the head office of punjab</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:28:25 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Validate user is able to know about Refund related Cancellation related ticket related</a>
+<div class="">
+<span class="badge badge-default">BusTickets.Validate user is able to know about Refund related Cancellation related ticket related</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:29:20 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='58'>Validate that the user is able to see main bus route in colombia</a>
+<div class="">
+<span class="badge badge-default">BusTickets.Validate that the user is able to see main bus route in colombia</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 18, 2024 11:27:05 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 18, 2024 11:30:11 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>48</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"BusTickets":184.035
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@smoke</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 7,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 48,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
